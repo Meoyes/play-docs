@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "nicetravel server",
   description: "Welcome everyone!",
-  base: '/nicetravel/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
