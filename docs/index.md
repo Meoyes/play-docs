@@ -3,23 +3,26 @@
 layout: home
 
 hero:
-  name: "nicetravel server"
-  text: "Welcome everyone!"
-  tagline: My great project tagline
+  name: "秘境寻踪Wiki"
+  text: "😉欢迎你!"
+  tagline: 这里是秘境寻踪Wiki
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始Wiki
+      link: /intro
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 加入我们
+      link: https://qm.qq.com/q/cYyKipx030
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 为什么选择此Wiki
+    icon: ❓
+    details: 本文档提供全面的秘境寻踪服务器Wiki，旨在帮助玩家入门和熟悉服务器
+  - title: 正确使用Wiki
+    icon: 👍
+    details: Wiki平台提供了使用指南和文档，这些文档可以帮助你快速上手。如果发现问题或有改进建议，可以提供反馈给Wiki管理员或开发者。
+  - title: 空位
+    icon: 😊
+    details: ...
 ---
 
