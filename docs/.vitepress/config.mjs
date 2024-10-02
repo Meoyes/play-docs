@@ -15,16 +15,17 @@ export default defineConfig({
       text: '在Github上编辑此页'
     },
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '主页', link: '/' },
+      { text: '获取客户端', link: 'https://cloud.wujiyan.cc/s/dWNHE' },
+      { text: '关于,', link: '/about/'}
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '开始',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '😊欢迎来到Wiki', link: '/intro' },
+          { text: '📘服务器介绍', link: '/serintro' }
         ]
       }
     ],
