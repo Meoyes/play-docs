@@ -17,7 +17,7 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '获取客户端', link: 'https://cloud.wujiyan.cc/s/dWNHE' },
-      { text: '关于,', link: '/about/'}
+      { text: '关于', link: '/about/'}
     ],
 
     sidebar: [
@@ -25,7 +25,8 @@ export default defineConfig({
         text: '开始',
         items: [
           { text: '😊欢迎来到Wiki', link: '/intro' },
-          { text: '📘服务器介绍', link: '/serintro' }
+          { text: '📘服务器介绍', link: '/serintro' },
+          { text: '🖐管理招募', link: '/recruitment.md'}
         ]
       }
     ],
