@@ -6,5 +6,8 @@
     "docs:dev": "vitepress dev docs --port 3000 --host",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "minisearch": "^7.1.0"
   }
 }

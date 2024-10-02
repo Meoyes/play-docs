@@ -7,6 +7,13 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
+    search: {
+      provider: 'local'
+    },
+    editLink: {
+      pattern: 'https://github.com/s80808080/nicetravel/edit/main/docs/:path',
+      text: '在Github上编辑此页'
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
