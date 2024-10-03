@@ -14,6 +14,13 @@ export default defineConfig({
       pattern: 'https://github.com/s80808080/nicetravel/edit/main/docs/:path',
       text: '在Github上编辑此页'
     },
+      lastUpdated: {
+        text: '最后更新于',
+        formatOptions: {
+          dateStyle: 'short',
+          timeStyle: 'medium'
+        }
+      },
     nav: [
       { text: '主页', link: '/' },
       { text: '获取客户端', link: 'https://cloud.wujiyan.cc/s/dWNHE' },
