@@ -24,16 +24,30 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '获取客户端', link: 'https://cloud.wujiyan.cc/s/dWNHE' },
-      { text: '关于', link: '/about/'}
+      { 
+        text: '关于',
+        items: [
+          { text: '认识我们', link: '/info/aboutus'},
+          { text: '联系我们', link: '/info/contact'}
+        ]
+      },
     ],
 
     sidebar: [
       {
-        text: '开始',
         items: [
-          { text: '😊欢迎来到Wiki', link: '/intro' },
-          { text: '📘服务器介绍', link: '/serintro' },
-          { text: '🖐管理招募', link: '/recruitment.md'}
+          { text: '😊欢迎来到Wiki', link: '/info/intro' },
+          { text: '📘服务器介绍', link: '/info/serintro' },
+          { text: '🖐管理招募', link: '/info/recruitment'},
+        ]
+      },
+      {
+        text: '初来乍到',
+        items: [
+          { text: '😇你需要先了解什么', link: '/start/sknow'},
+          { text: '', link: '/intro' },
+          { text: '', link: '/serintro' },
+          { text: '', link: '/recruitment.md'},
         ]
       }
     ],

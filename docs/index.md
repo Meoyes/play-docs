@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始Wiki
-      link: /intro.md
+      link: /info/intro
     - theme: alt
       text: 获取客户端
       link: https://cloud.wujiyan.cc/s/dWNHE
