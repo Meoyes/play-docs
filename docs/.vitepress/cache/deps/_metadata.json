@@ -1,49 +1,49 @@
 {
-  "hash": "f53a24ff",
-  "configHash": "665bfcab",
-  "lockfileHash": "700471d1",
-  "browserHash": "1600c499",
+  "hash": "4893aeb3",
+  "configHash": "16049c4e",
+  "lockfileHash": "8b515ec4",
+  "browserHash": "db6a7e96",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "700a7b5d",
+      "fileHash": "0ea71c21",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "28a443e4",
+      "fileHash": "3572982c",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "b45844aa",
+      "fileHash": "89473b57",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "ac8d77b3",
+      "fileHash": "882aa2c8",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "0d45bba6",
+      "fileHash": "b418998b",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "c57f00a8",
+      "fileHash": "d97ae7dc",
       "needsInterop": false
     },
-    "@theme/index": {
-      "src": "../../../../node_modules/vitepress/dist/client/theme-default/index.js",
-      "file": "@theme_index.js",
-      "fileHash": "c17bb83f",
+    "vitepress-plugin-image-viewer": {
+      "src": "../../../../node_modules/vitepress-plugin-image-viewer/lib/viewer.js",
+      "file": "vitepress-plugin-image-viewer.js",
+      "fileHash": "edb139d1",
       "needsInterop": false
     }
   },

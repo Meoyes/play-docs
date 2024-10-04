@@ -8,6 +8,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "minisearch": "^7.1.0"
+    "minisearch": "^7.1.0",
+    "vitepress-plugin-image-viewer": "^1.1.5"
   }
 }

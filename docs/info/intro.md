@@ -1,5 +1,5 @@
 ---
-next: {text: '📘服务器介绍 | 秘境寻踪Wiki', link: '/serintro'}
+next: {text: '📘服务器介绍 | 秘境寻踪Wiki', link: '/info/serintro'}
 ---
 
 # 欢迎来到 **秘境寻踪|NiceTravel** 服务器官方Wiki！

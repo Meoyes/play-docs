@@ -6,7 +6,8 @@ export default defineConfig({
   description: "欢迎你!",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo.svg',
+    externalLinkIcon: true,
+    logo: {src: "https://www.helloimg.com/i/2024/10/04/66ffec15126e5.png", width: 28, height: 28},
     search: {
       provider: 'local'
     },
@@ -45,7 +46,7 @@ export default defineConfig({
         text: '初来乍到',
         items: [
           { text: '😇你需要先了解什么', link: '/start/sknow'},
-          { text: '', link: '/intro' },
+          { text: '🫤如何进入服务器', link: '/start/join' },
           { text: '', link: '/serintro' },
           { text: '', link: '/recruitment.md'},
         ]

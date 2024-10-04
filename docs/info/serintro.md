@@ -1,7 +1,7 @@
 ---
 layout: doc
-prev: {text: '😊欢迎来到Wiki | 秘境寻踪Wiki', link: '/intro' }
-next: {text: '🖐管理招募 | 秘境寻踪Wiki', link: '/recruitment'}
+prev: {text: '😊欢迎来到Wiki | 秘境寻踪Wiki', link: '/info/intro' }
+next: {text: '🖐管理招募 | 秘境寻踪Wiki', link: '/info/recruitment'}
 ---
 
 # 关于秘境寻踪
