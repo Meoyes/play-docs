@@ -24,7 +24,7 @@ export default {
             repo: 's80808080/nicetravel',
             repoId: 'R_kgDOM3-0ZA',
             category: 'General', // 默认: `General`
-            categoryId: 'DIC_kwDOM3-0ZM4CjEKe',
+            categoryId: 'DIC_kwDOM3-0ZM4CjEKd',
             mapping: 'pathname', // 默认: `pathname`
             inputPosition: 'bottom', // 默认: `top`
             lang: 'zh-CN', // 默认: `zh-CN`
