@@ -26,7 +26,7 @@ export default {
             category: 'General', // 默认: `General`
             categoryId: 'DIC_kwDOM3-0ZM4CjEKe',
             mapping: 'pathname', // 默认: `pathname`
-            inputPosition: 'top', // 默认: `top`
+            inputPosition: 'bottom', // 默认: `top`
             lang: 'zh-CN', // 默认: `zh-CN`
             // i18n 国际化设置（注意：该配置会覆盖 lang 设置的默认语言）
             // 配置为一个对象，里面为键值对组：
