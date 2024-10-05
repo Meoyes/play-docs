@@ -6,13 +6,17 @@ hero:
   name: "秘境寻踪Wiki"
   text: "😉欢迎你!"
   tagline: 这里是秘境寻踪Wiki
+  image: 
+    dark: '/nicet-dark.png'
+    light: '/nicet-light.svg'
+    alt: 123x
   actions:
     - theme: brand
       text: 开始Wiki
       link: /info/intro
     - theme: alt
       text: 获取客户端
-      link: https://cloud.wujiyan.cc/s/dWNHE
+      link: https://cloud.wujiyan.cc/s/0qktZ
     - theme: alt
       text: 加入我们
       link: https://qm.qq.com/q/cYyKipx030

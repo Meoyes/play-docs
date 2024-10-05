@@ -5,14 +5,22 @@ export default defineConfig({
   title: "秘境寻踪Wiki",
   description: "欢迎你!",
   head: [
-    ['link', { rel: 'icon', type: 'icon', href: '/nicet.svg'}]
+    [ "link", {rel: "icon", href: "/nicet-light.svg"}]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     externalLinkIcon: true,
-    logo: { src: '/nicet.svg', width: 24, height: 24 },
+    logo: {
+      dark: 'nicet-dark.png',
+      light: 'nicet-light.svg',
+      width: 24,
+      height: 24
+    },
     search: {
       provider: 'local'
+    },
+    outline: {
+      label: '页面导航'
     },
     editLink: {
       pattern: 'https://github.com/s80808080/nicetravel/edit/main/docs/:path',
@@ -25,9 +33,17 @@ export default defineConfig({
           timeStyle: 'medium'
         }
       },
+
+      langMenuLabel: '多语言',
+    returnToTopLabel: '回到顶部',
+    sidebarMenuLabel: '菜单',
+    darkModeSwitchLabel: '主题',
+    lightModeSwitchTitle: '切换到浅色模式',
+    darkModeSwitchTitle: '切换到深色模式',
+
     nav: [
       { text: '主页', link: '/' },
-      { text: '获取客户端', link: 'https://cloud.wujiyan.cc/s/dWNHE' },
+      { text: '获取客户端', link: 'https://cloud.wujiyan.cc/s/0qktZ' },
       { 
         text: '关于',
         items: [
@@ -50,7 +66,7 @@ export default defineConfig({
         items: [
           { text: '😇你需要先了解什么', link: '/start/sknow'},
           { text: '🫤如何加入游戏', link: '/start/join' },
-          { text: '', link: '/serintro' },
+          { text: '📠注册与登录', link: '/start/regl' },
           { text: '', link: '/recruitment.md'},
         ]
       }
