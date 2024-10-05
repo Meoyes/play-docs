@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "minisearch": "^7.1.0",
+    "vitepress-plugin-comment-with-giscus": "^1.1.15",
     "vitepress-plugin-image-viewer": "^1.1.5"
   }
 }

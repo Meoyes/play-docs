@@ -46,7 +46,7 @@ export default defineConfig({
         text: '初来乍到',
         items: [
           { text: '😇你需要先了解什么', link: '/start/sknow'},
-          { text: '🫤如何进入服务器', link: '/start/join' },
+          { text: '🫤如何加入游戏', link: '/start/join' },
           { text: '', link: '/serintro' },
           { text: '', link: '/recruitment.md'},
         ]
