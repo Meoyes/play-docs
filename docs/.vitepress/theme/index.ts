@@ -23,7 +23,7 @@ export default {
         giscusTalk({
             repo: 's80808080/nicetravel',
             repoId: 'R_kgDOM3-0ZA',
-            category: 'General', // 默认: `General`
+            category: 'Q&A', // 默认: `General`
             categoryId: 'DIC_kwDOM3-0ZM4CjEKe',
             mapping: 'pathname', // 默认: `pathname`
             inputPosition: 'top', // 默认: `top`
