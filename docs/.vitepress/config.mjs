@@ -4,10 +4,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "秘境寻踪Wiki",
   description: "欢迎你!",
+  head: [
+    ['link', { rel: 'icon', type: 'icon', href: '/nicet.svg'}]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     externalLinkIcon: true,
-    logo: {src: "https://www.helloimg.com/i/2024/10/04/66ffec15126e5.png", width: 28, height: 28},
+    logo: { src: '/nicet.svg', width: 24, height: 24 },
     search: {
       provider: 'local'
     },
@@ -56,5 +59,18 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  markdown: {
+    image: {
+      // 图片懒加载
+      lazyLoading: true,
+    },
+    container: {
+      tipLabel: "提示",
+      warningLabel: "警告",
+      dangerLabel: "危险",
+      infoLabel: "信息",
+      detailsLabel: "详细信息",
+    },
+  },
 })
