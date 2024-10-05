@@ -34,7 +34,7 @@ export default defineConfig({
         }
       },
 
-      langMenuLabel: '多语言',
+    langMenuLabel: '多语言',
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '主题',
