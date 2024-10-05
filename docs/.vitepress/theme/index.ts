@@ -15,13 +15,10 @@ export default {
         // ...
     },
     setup() {
-        // Get route
-        const route = useRoute();
-        // Using
-        imageViewer(route);
         // 获取前言和路由
         const { frontmatter } = toRefs(useData());
-        
+        const route = useRoute();
+        imageViewer(route);
         // 评论组件 - https://giscus.app/
         giscusTalk({
             repo: 's80808080/nicetravel',
