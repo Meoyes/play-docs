@@ -23,7 +23,7 @@ export default {
         giscusTalk({
             repo: 's80808080/nicetravel',
             repoId: 'R_kgDOM3-0ZA',
-            category: 'Q&A', // 默认: `General`
+            category: 'General', // 默认: `General`
             categoryId: 'DIC_kwDOM3-0ZM4CjEKe',
             mapping: 'pathname', // 默认: `pathname`
             inputPosition: 'top', // 默认: `top`
@@ -32,8 +32,7 @@ export default {
             // 配置为一个对象，里面为键值对组：
             // [你的 i18n 配置名称]: [对应 Giscus 中的语言包名称]
             locales: {
-                'zh-Hans': 'zh-CN',
-                'en-US': 'en'
+                'zh-Hans': 'zh-CN'
             },
             homePageShowComment: false, // 首页是否显示评论区，默认为否
             lightTheme: 'light', // 默认: `light`
