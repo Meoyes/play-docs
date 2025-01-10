@@ -3,33 +3,22 @@
 layout: home
 
 hero:
-  name: "秘境寻踪Wiki"
-  text: "😉欢迎你!"
-  tagline: 这里是秘境寻踪Wiki
+  name: "欢迎来到帮助文档👋"
+  text: "寒假联机服务器"
+  tagline: 不是14班的请离开😑
   image: 
-    dark: '/nicet-dark.png'
-    light: '/nicet-light.svg'
-    alt: 123x
+      src: /icon.svg
   actions:
     - theme: brand
-      text: 开始Wiki
+      text: 点我开始
       link: /info/intro
-    - theme: alt
-      text: 获取客户端
-      link: https://cloud.wujiyan.cc/s/0qktZ
-    - theme: alt
-      text: 加入我们
-      link: https://qm.qq.com/q/cYyKipx030
 
 features:
-  - title: 为什么选择此Wiki
+  - title: 为什么要看
     icon: ❓
-    details: 本文档提供全面的秘境寻踪服务器Wiki，旨在帮助玩家入门和熟悉服务器
-  - title: 正确使用Wiki
-    icon: 👍
-    details: Wiki平台提供了使用文档，这些文档可以帮助你快速上手。如果发现问题或有改进建议，可以提供反馈给Wiki管理员或开发者。
-  - title: 空位
-    icon: 😊
-    details: ...
+    details: 否则你可能连我的世界都不会玩了
+  - title: 就不看
+    icon: 😒
+    details: 咱们走着瞧😁
 ---
 

@@ -11,8 +11,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     externalLinkIcon: true,
     logo: {
-      dark: 'nicet-dark.png',
-      light: 'nicet-light.svg',
+      src: "/icon.svg",
       width: 24,
       height: 24
     },
@@ -23,7 +22,7 @@ export default defineConfig({
       label: '页面导航'
     },
     editLink: {
-      pattern: 'https://github.com/s80808080/nicetravel/edit/main/docs/:path',
+      pattern: 'https://github.com/Meoyes/play-docs/edit/main/docs/:path',
       text: '在Github上编辑此页'
     },
       lastUpdated: {
@@ -43,33 +42,15 @@ export default defineConfig({
 
     nav: [
       { text: '主页', link: '/' },
-      { text: '获取客户端', link: 'https://cloud.wujiyan.cc/s/0qktZ' },
-      { 
-        text: '关于',
-        items: [
-          { text: '认识我们', link: '/info/aboutus'},
-          { text: '联系我们', link: '/info/contact'}
-        ]
-      },
     ],
 
     sidebar: [
       {
         items: [
           { text: '😊欢迎来到Wiki', link: '/info/intro' },
-          { text: '📘服务器介绍', link: '/info/serintro' },
-          { text: '🖐管理招募', link: '/info/recruitment'},
+          { text: '📘如何加入', link: '/info/howjoin' },
         ]
       },
-      {
-        text: '初来乍到',
-        items: [
-          { text: '😇你需要先了解什么', link: '/start/sknow'},
-          { text: '🫤如何加入游戏', link: '/start/join' },
-          { text: '📠注册与登录', link: '/start/regl' },
-          { text: '', link: '/recruitment.md'},
-        ]
-      }
     ],
 
     socialLinks: [
