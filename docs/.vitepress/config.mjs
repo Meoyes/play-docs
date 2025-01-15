@@ -2,11 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "秘境寻踪Wiki",
+  title: "寒假联机Wiki",
   description: "欢迎你!",
   head: [
     [ "link", {rel: "icon", href: "/nicet-light.svg"}]
   ],
+  ignoreDeadLinks: true,
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     externalLinkIcon: true,
@@ -49,6 +51,12 @@ export default defineConfig({
         items: [
           { text: '😊欢迎来到Wiki', link: '/info/intro' },
           { text: '📘如何加入', link: '/info/howjoin' },
+        ]
+      },
+      {
+        text: "科普",
+        items: [
+          { text: '💻客户端与服务端', link: '/sk/kaf'},
         ]
       },
     ],
