@@ -59,6 +59,12 @@ export default defineConfig({
           { text: '💻客户端与服务端', link: '/sk/kaf'},
         ]
       },
+      {
+        text: "玩法",
+        items: [
+          { text: '💫更多附魔', link: '/wf/excell'},
+        ]
+      },
     ],
 
     socialLinks: [
